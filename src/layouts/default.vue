@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col bg-blue-900/50 md:bg-opacity-50">
     <!-- bg-[url('@images/logo_bg.jpg')] -->
     <!-- Header -->
-    <Header class="w-full text-white p-4" />
+    <Header class="w-full bg-blue-500 text-white" />
     <!-- Main Content -->
     <div class="flex flex-1">
       <!-- Sidebar -->
