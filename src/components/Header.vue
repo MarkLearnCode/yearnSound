@@ -1,4 +1,4 @@
 <template>
-  <div class="h-20%">her</div>
+  <div>her</div>
 </template>
 <script setup></script>

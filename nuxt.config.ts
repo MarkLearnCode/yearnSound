@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   modules: [
     '@kevinmarrec/nuxt-pwa',
     '@morev/vue-transitions/nuxt', // transitions
-    'nuxt-windicss', // css
+    '@nuxtjs/tailwindcss', // css
     'nuxt-icon', // icon
     '@pinia/nuxt' // store
   ],

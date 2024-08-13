@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-800">123</div>
+  <div class="w-full h-full">{{ x }}</div>
 </template>
 <script setup>
 const x = '231';
