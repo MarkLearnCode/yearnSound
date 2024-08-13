@@ -1,10 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-
+import { fileURLToPath } from 'url';
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@kevinmarrec/nuxt-pwa'],
+  modules: [
+    '@kevinmarrec/nuxt-pwa',
+    '@morev/vue-transitions/nuxt', // transitions
+    'nuxt-windicss', // css
+    'nuxt-icon', // icon
+    '@pinia/nuxt' // store
+  ],
   srcDir: 'src/',
+  alias: {
+    '@images': fileURLToPath(new URL('./src/assets/images/', import.meta.url)),
+    '@style': fileURLToPath(new URL('./src/assets/style/', import.meta.url)),
+    '@js': fileURLToPath(new URL('./src/assets/js/', import.meta.url)),
+    '@JSON': fileURLToPath(new URL('./src/assets/json/', import.meta.url))
+  },
   plugins: [],
   app: {
     baseURL: '/',

@@ -1,5 +1,5 @@
 <template>
-  <div>123</div>
+  <div class="bg-red-800">123</div>
 </template>
 <script setup>
 const x = '231';
