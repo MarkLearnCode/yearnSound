@@ -4,12 +4,16 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: [
-    '@kevinmarrec/nuxt-pwa',
-    '@morev/vue-transitions/nuxt', // transitions
-    '@nuxtjs/tailwindcss', // css
-    'nuxt-icon', // icon
-    '@pinia/nuxt' // store
+    '@kevinmarrec/nuxt-pwa', // transitions
+    '@nuxt/ui',
+    '@morev/vue-transitions/nuxt', // css
+    // '@nuxtjs/tailwindcss', // icon
+    // 'nuxt-icon', // store
+    '@pinia/nuxt'
   ],
+  // icon: {
+  //   componentName: 'NuxtIcon'
+  // },
   srcDir: 'src/',
   alias: {
     '@images': fileURLToPath(new URL('./src/assets/images/', import.meta.url)),

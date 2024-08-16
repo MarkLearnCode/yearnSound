@@ -11,6 +11,7 @@
   "dependencies": {
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
     "@morev/vue-transitions": "^3.0.2",
+    "@nuxt/ui": "^2.18.4",
     "@pinia/nuxt": "^0.5.3",
     "nuxt": "^3.12.3",
     "nuxt-icon": "^1.0.0-beta.7",
