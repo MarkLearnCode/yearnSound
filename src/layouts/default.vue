@@ -6,7 +6,8 @@
     <!-- Main Content -->
     <div class="flex flex-1">
       <!-- Sidebar -->
-      <div class="w-[108px] text-white p-2 md:p-4 md:w-[200px]">
+       <div class="block md:hidden"><MobileSideBar /></div>
+      <div class="hidden md:block w-[108px] text-white p-2 md:p-4 md:w-[200px]">
         <SideBar />
       </div>
       <!-- Page Content -->
