@@ -6,11 +6,11 @@
     <!-- Main Content -->
     <div class="flex flex-1">
       <!-- Sidebar -->
-      <div class="w-50 text-white p-4">
+      <div class="w-[108px] text-white p-2 md:p-4 md:w-[200px]">
         <SideBar />
       </div>
       <!-- Page Content -->
-      <div class="flex-1 p-6">
+      <div class="flex-1 p-4">
         <slot />
       </div>
     </div>
