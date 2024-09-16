@@ -27,10 +27,10 @@
     <!-- Sidebar -->
     <div
       :class="[
-        'top-14 fixed top-0 left-0 h-full bg-gray-800 text-white z-40 p-4 transition-transform',
+        'top-14 fixed top-0 left-0 h-full bg-gray-800 text-white z-40 p-4 transition-transform duration-500',
         isMenuOpen ? 'translate-x-0' : '-translate-x-full'
       ]"
-      style="width: 20%"
+      style="width: 25%"
     >
       <ul class="pt-5">
         <li class="mb-2 cursor-pointer" @click="navigate('speakCable')">喇叭線</li>

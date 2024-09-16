@@ -5,6 +5,11 @@
         "level":2,
         "price":5000,
         "introduce":"介紹區",
+        "treble":60,
+        "warm":44,
+        "bass":55,
+        "cold":77,
+        "parse":90,
         "imgTop":"/product/headphoneCable/ear1/1.jpg",
         "imgLocation":"@images/hp/ear1"
     },
@@ -14,6 +19,11 @@
         "level":1,
         "price":2500,
         "introduce":"介紹區",
+        "treble":75,
+        "warm":79,
+        "bass":80,
+        "cold":88,
+        "parse":71,
         "imgTop":"/product/headphoneCable/ear1/1.jpg",
         "imgLocation":"@images/hp/ear2"
     },
@@ -23,6 +33,11 @@
         "level":1,
         "price":2500,
         "introduce":"介紹區",
+        "treble":88,
+        "warm":77,
+        "bass":33,
+        "cold":60,
+        "parse":70,
         "imgTop":"/product/headphoneCable/ear1/1.jpg",
         "imgLocation":"@images/hp/ear2"
     },
@@ -32,6 +47,11 @@
         "level":1,
         "price":2500,
         "introduce":"介紹區",
+        "treble":66,
+        "warm":55,
+        "bass":60,
+        "cold":75,
+        "parse":51,
         "imgTop":"/product/headphoneCable/ear1/1.jpg",
         "imgLocation":"@images/hp/ear2"
     }

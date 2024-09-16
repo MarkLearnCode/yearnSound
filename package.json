@@ -13,6 +13,7 @@
     "@morev/vue-transitions": "^3.0.2",
     "@nuxt/ui": "^2.18.4",
     "@pinia/nuxt": "^0.5.3",
+    "echarts": "^5.5.1",
     "nuxt": "^3.12.3",
     "nuxt-icon": "^1.0.0-beta.7",
     "pinia": "^2.2.1",

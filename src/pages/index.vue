@@ -1,7 +1,6 @@
 <template>
   <div class="w-full h-full">
-    {{ x }}
-    <img src="/favicon.ico" alt="" />
+ 
   </div>
 </template>
 <script setup>
